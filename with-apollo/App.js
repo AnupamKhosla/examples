@@ -1,4 +1,6 @@
-import { ApolloProvider, gql, useQuery } from "@apollo/client";
+import { ApolloProvider, useQuery } from "@apollo/client/react";
+import { gql } from "@apollo/client";
+
 import { Picker } from "@react-native-picker/picker";
 import { useState } from "react";
 import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
